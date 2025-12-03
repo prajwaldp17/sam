@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweet Treats Ice Cream</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sweet Treats Ice Cream Parlour</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Cool Down With Our Delicious Ice Creams!</h2>
+    <p>Fresh, creamy, and made with love 🍦</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Flavours</h2>
+    <div class="menu-grid">
+      <div class="item">
+        <img src="https://i.imgur.com/3hKQwhF.png" alt="Vanilla Ice Cream">
+        <h3>Vanilla</h3>
+        <p>$3.00</p>
+      </div>
+      <div class="item">
+        <img src="https://i.imgur.com/1ULnXKk.png" alt="Chocolate Ice Cream">
+        <h3>Chocolate</h3>
+        <p>$3.50</p>
+      </div>
+      <div class="item">
+        <img src="https://i.imgur.com/YQF0EJP.png" alt="Strawberry Ice Cream">
+        <h3>Strawberry</h3>
+        <p>$3.25</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+   <form id="contactForm" action="contact.php" method="POST">
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <input type="email" id="email" name="email" placeholder="Your Email" required>
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+<p id="formMessage"></p>
+
+
+
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sweet Treats Ice Cream Parlour</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
